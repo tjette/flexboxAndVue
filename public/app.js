@@ -13,6 +13,7 @@ function fetchData(){
 	.then(data =>{
 		swApp.characters = data
 
+
 	})
 	.catch(e =>e)
 
@@ -21,4 +22,3 @@ function fetchData(){
 
 fetchData();
 
-console.log(swApp.data);
