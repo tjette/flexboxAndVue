@@ -13,12 +13,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="container">
-<div id="component">
-  <ul v-for="x in characters">
-  <h1>{{x.name}}</h1>
-  <img src="http://img.lum.dolimg.com/v1/images/starwars_551c43f4.jpeg">
-    
-  </ul>
+
+<div class="flex-container" id="component">
+  
+    <ul class="flex-item" v-for="x in characters">
+    <h5 class="flex-anotherItem">{{x.name}}</h5>
+    <!-- <img src="http://img.lum.dolimg.com/v1/images/starwars_551c43f4.jpeg"> -->
+    <p class="flex-anotherItem">{{x.height}}</p>
+    <p class="flex-anotherItem">{{x.gender}}</p>
+    </ul>
+  
 </div>
     
 

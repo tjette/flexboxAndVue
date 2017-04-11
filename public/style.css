@@ -2,7 +2,7 @@ body {
   background-color: #3498db;
 }
 
-/*.flex-container{
+.flex-container{
 	display: flex;
 	justify-content: center;
 	flex-wrap:wrap;
@@ -10,6 +10,7 @@ body {
 	height: 100vh;
 	align-items: center;
 	align-content: center;
+
 }
 
 .flex-item{
@@ -17,11 +18,20 @@ body {
 	background-color: orange;
 	text-align: center;
 	border: solid 3px red;
+	width:33%;
+	height: 50%;
+	align-items: center;
+	align-content: center;
+	margin: auto;
 
 	
 }
+.flex-anotherItem{
+	width:calc(33% -10px);
+	margin:10px;
+}
 
-.one{
+/*.one{
 	height: 100px;
 	width: 100px;
 	flex-wrap:wrap;
@@ -29,9 +39,9 @@ body {
 	display:flex;
 	align-content: center;
 	align-items: center:
-	
 
-}
+
+}*/
 
 /*.five {
 	order: -1;
@@ -39,5 +49,5 @@ body {
 
 .three{
 	flex:2;
-}*/
+}
 */
