@@ -1,3 +1,43 @@
 body {
   background-color: #3498db;
 }
+
+/*.flex-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	border: solid 3px magenta;
+	height: 100vh;
+	align-items: center;
+	align-content: center;
+}
+
+.flex-item{
+	height: 50px;
+	background-color: orange;
+	text-align: center;
+	border: solid 3px red;
+
+	
+}
+
+.one{
+	height: 100px;
+	width: 100px;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	display:flex;
+	align-content: center;
+	align-items: center:
+	
+
+}
+
+/*.five {
+	order: -1;
+}
+
+.three{
+	flex:2;
+}*/
+*/
